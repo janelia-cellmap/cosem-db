@@ -1,0 +1,1 @@
+## Config files for setting up mongodb with docker compose on a VM
