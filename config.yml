@@ -1,0 +1,22 @@
+jobs:
+  getTrainingData:
+    input:
+      origin:
+        'googleDrive'
+      auth:
+        'cosem-db-1669c2970c7f.json'
+      document:
+        'COSEM'
+      worksheet:
+        'Training Data'
+    output:
+      destination:
+        'mongodb'
+      url:
+        'cosem.int.janelia.org:27017'
+      auth:
+        ''
+      database:
+        'crops'
+      collection:
+        'latest'
