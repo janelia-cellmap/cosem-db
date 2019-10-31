@@ -8,6 +8,6 @@ ADD config.yml /
 ADD cosem-db-1669c2970c7f.json /
 ADD dbUpdater.py /
 
-CMD ["python", "./dbUpdater.py", "-j", "config.yml"]
+CMD ["python", "./dbUpdater.py", "-j", "config.yml", "-i", "2"]
 
 
